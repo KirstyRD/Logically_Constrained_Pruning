@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Run
 
-The file prune.sh roduces pruned models from the paper. Note that only one constraint is used here. Any constraint from [DL2](https://github.com/eth-sri/dl2) can be used instead. The file plot.sh plots results into graphs.
+The file prune.sh produces pruned models from the paper. Note that only one constraint is used here. Any constraint from [DL2](https://github.com/eth-sri/dl2) can be used instead by modifying the --constraint parameter. The file plot.sh plots all graphs found in the paper e.g. the following figures; Prediction accuracy, robustess and deterioration of ResNet50 on CIFAR-100 with Global Robustness constrant and FGSM sampling ([Casadio et al [3]](https://github.com/aisec-private/training-with-constraints).)
 
 
 <p float="left">
