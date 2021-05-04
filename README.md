@@ -6,9 +6,9 @@ The file prune.sh roduces pruned models from the paper. Note that only one const
 
 
 <p float="left">
-  <img src="/plots/CIFAR100_resnet50_accuracy.png" width="300" />
-  <img src="/plots/CIFAR100_resnet50_robustness.png" width="300" />
-  <img src="/plots/degen_CIFAR100_resnet50.png" width="300" />
+  <img src="/plots/CIFAR100_resnet50_accuracy.png" width="250" />
+  <img src="/plots/CIFAR100_resnet50_robustness.png" width="250" />
+  <img src="/plots/degen_CIFAR100_resnet50.png" width="250" />
 </p>
 
 This code was tested with the libraries listed in requirements.txt and CUDA v10.0.
