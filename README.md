@@ -2,6 +2,23 @@
 
 This repo contains code to prune neural network models using logical constaints.
 
+## Install
+
+Clone this repo:
+
+```
+git clone https://github.com/KirstyRD/Logically_Constrained_Pruning.git
+cd Logically_Constrained_Pruning/
+```
+
+This code was tested with the libraries listed in requirements.txt and CUDA v10.0.
+
+```
+pip install -r requirements.txt
+```
+
+## Run
+
 The file prune.sh roduces pruned models from the paper. Note that only one constraint is used here. Any constraint from [DL2](https://github.com/eth-sri/dl2) can be used instead. The file plot.sh plots results into graphs.
 
 
@@ -11,6 +28,5 @@ The file prune.sh roduces pruned models from the paper. Note that only one const
   <img src="/plots/degen_CIFAR100_resnet50.png" width="250" />
 </p>
 
-This code was tested with the libraries listed in requirements.txt and CUDA v10.0.
 
 There is a heavy reuse of code from paper references [DL2 [7]](https://github.com/eth-sri/dl2) and [NVIDIA Pruning [18]](https://github.com/NVlabs/Taylor_pruning)
