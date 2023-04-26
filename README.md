@@ -1,6 +1,6 @@
 # Logically Constrained Pruning
 
-This repo contains code to prune neural network models using logical constaints.
+This repo contains code to prune neural network models using logical constaints. The file "Logically_Constrained_Pruning.pdf" containts the paper, published at FOMLAS workshop, affiliated with CAV 2021.
 
 ## Install
 
